@@ -11,7 +11,7 @@ public class Main{
 				sq[i][j] = sn.nextInt();
 			}
 		}
-		int uop = underoverplus(sq);
+		int uop = underOverPlus(sq);
 		int []outer = new int[4];
 		for (int i = 0 ; i < 4 ; i++){
 			outer[i] = outerWidth(sq);
@@ -46,10 +46,11 @@ public class Main{
 				max = sq[i][j];
 			}
 		}
+		// 0 4  s = 4 max = 3 s = 5;
 		return sum;
 	}
 
-	private static int underoverplus(int [][]sq) {
+	private static int underOverPlus(int [][]sq) {
 		int sum = 0;
 		for (int i = 0 ; i < sq.length ; i++){
 			for (int j = 0 ; j < sq[i].length ; j++){
