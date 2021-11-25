@@ -20,3 +20,6 @@ public class Main{
 		System.out.println(dp[n]);
 	}
 }
+// 2   p2 1,1 
+// 3   p3  2 1
+// 4   p4 /d3 d1/ d2 d2/
