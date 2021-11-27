@@ -20,6 +20,8 @@ public class Main{
 		System.out.println(dp[n]);
 	}
 }
-// 2   p2 1,1 
-// 3   p3  2 1
-// 4   p4 /d3 d1/ d2 d2/
+//p1 = 10
+//p2 = 20
+//p3 = 30
+//p4 = 40
+//p5 = 50  
