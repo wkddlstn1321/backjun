@@ -5,7 +5,7 @@ public class Main{
 	public static void main(String[] args) {
 		Scanner sn = new Scanner(System.in);
 		int n = sn.nextInt();
-		Queue<Point> q = new LinkedList<>();
+		Queue<Point> q = new LinkedList<>();		//(2, 4)(1, 3)
 		int [][]visit = new int[n][n];
 		int []dirx = {1, -1, 0, 0};
 		int []diry = {0, 0, 1, -1};
