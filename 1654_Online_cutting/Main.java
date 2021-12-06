@@ -30,3 +30,6 @@ public class Main{
 		System.out.println(min);
 	}
 }
+//max	150
+//mid	113
+//min	75
