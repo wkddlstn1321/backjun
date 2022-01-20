@@ -40,7 +40,6 @@ public class Main{
 				time = time2;
 				save = i;
 			}
-			if (time )
 		}
 		System.out.println(time + " " + save);
 	}
